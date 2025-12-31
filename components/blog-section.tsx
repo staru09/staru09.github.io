@@ -2,34 +2,10 @@ import Link from "next/link"
 
 const blogPosts = [
   {
-    date: "Dec 15",
-    title: "Building Multimodal RAG Systems: Lessons from Video Understanding",
-    category: "AI Engineering",
-    link: "https://medium.com/@yourusername/building-multimodal-rag-systems",
-  },
-  {
-    date: "Nov 28",
-    title: "Contributing to Open Source: My Journey with DocETL",
+    date: "Dec 31",
+    title: "Making Your First Open Source Contribution: A Step-by-Step Guide",
     category: "Open Source",
-    link: "https://medium.com/@yourusername/contributing-to-open-source",
-  },
-  {
-    date: "Nov 10",
-    title: "Understanding LangGraph: Building Multi-Agent Systems",
-    category: "AI Engineering",
-    link: "https://medium.com/@yourusername/understanding-langgraph",
-  },
-  {
-    date: "Oct 22",
-    title: "RAG vs Fine-tuning: When to Use What",
-    category: "Machine Learning",
-    link: "https://medium.com/@yourusername/rag-vs-fine-tuning",
-  },
-  {
-    date: "Oct 5",
-    title: "Getting Started with WasmEdge for AI Applications",
-    category: "Infrastructure",
-    link: "https://medium.com/@yourusername/getting-started-with-wasmedge",
+    link: "https://medium.com/@arusharmazxx000/making-your-first-open-source-contribution-a-step-by-step-guide-5d8976280bc4",
   },
 ]
 

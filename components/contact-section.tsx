@@ -2,25 +2,36 @@
 
 import type React from "react"
 
-import { useState } from "react"
-import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react"
+import { useForm, ValidationError } from "@formspree/react"
+import { Mail, Phone, MapPin } from "lucide-react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 
 export function ContactSection() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-  })
+  const [state, handleSubmit] = useForm("YOUR_FORM_ID")
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    // Handle form submission
-    console.log(formData)
+  if (state.succeeded) {
+    return (
+      <section id="contact" className="border-t border-border bg-muted/30">
+        <div className="container mx-auto max-w-5xl px-6 py-16 md:py-24">
+          <div className="mx-auto max-w-md rounded-lg border border-border bg-card p-8 text-center shadow-sm">
+            <h2 className="mb-4 text-2xl font-semibold text-foreground">Message Sent!</h2>
+            <p className="text-muted-foreground">
+              Thanks for reaching out. I'll get back to you as soon as possible.
+            </p>
+            <Button
+              className="mt-6"
+              variant="outline"
+              onClick={() => window.location.reload()}
+            >
+              Send Another Message
+            </Button>
+          </div>
+        </div>
+      </section>
+    )
   }
 
   return (
@@ -73,34 +84,50 @@ export function ContactSection() {
             <h3 className="mb-6 text-lg font-semibold text-foreground">Send Message</h3>
 
             <form onSubmit={handleSubmit} className="space-y-4">
-              <Input
-                placeholder="Your Name"
-                value={formData.name}
-                onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                className="bg-muted/50"
-              />
-              <Input
-                type="email"
-                placeholder="Your Email"
-                value={formData.email}
-                onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                className="bg-muted/50"
-              />
-              <Input
-                placeholder="Subject"
-                value={formData.subject}
-                onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
-                className="bg-muted/50"
-              />
-              <Textarea
-                placeholder="Your Message"
-                rows={4}
-                value={formData.message}
-                onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                className="bg-muted/50 resize-none"
-              />
-              <Button type="submit" className="w-full">
-                Send Message
+              <div>
+                <Input
+                  id="name"
+                  name="name"
+                  placeholder="Your Name"
+                  className="bg-muted/50"
+                  required
+                />
+                <ValidationError prefix="Name" field="name" errors={state.errors} />
+              </div>
+              <div>
+                <Input
+                  id="email"
+                  type="email"
+                  name="email"
+                  placeholder="Your Email"
+                  className="bg-muted/50"
+                  required
+                />
+                <ValidationError prefix="Email" field="email" errors={state.errors} />
+              </div>
+              <div>
+                <Input
+                  id="subject"
+                  name="subject"
+                  placeholder="Subject"
+                  className="bg-muted/50"
+                  required
+                />
+                <ValidationError prefix="Subject" field="subject" errors={state.errors} />
+              </div>
+              <div>
+                <Textarea
+                  id="message"
+                  name="message"
+                  placeholder="Your Message"
+                  rows={4}
+                  className="bg-muted/50 resize-none"
+                  required
+                />
+                <ValidationError prefix="Message" field="message" errors={state.errors} />
+              </div>
+              <Button type="submit" className="w-full" disabled={state.submitting}>
+                {state.submitting ? "Sending..." : "Send Message"}
               </Button>
             </form>
           </div>
