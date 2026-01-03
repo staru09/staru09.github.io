@@ -17,13 +17,13 @@ export function HeroSection() {
       <div className="grid gap-12 md:grid-cols-[300px_1fr] lg:gap-16">
         {/* Left Column - Photo and Info */}
         <div className="space-y-6">
-          <div className="aspect-square overflow-hidden rounded-lg border-4 border-amber-100">
+          <div className="overflow-hidden rounded-lg border-4 border-amber-100">
             <Image
-              src="me_3.jpg"
+              src="me.jpeg"
               alt="Aru Sharma"
               width={300}
               height={300}
-              className="h-full w-full object-cover"
+              className="h-auto w-full"
             />
           </div>
           <div className="space-y-2">
