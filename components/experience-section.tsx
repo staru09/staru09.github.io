@@ -3,6 +3,28 @@ import Link from "next/link"
 
 const experiences = [
   {
+    title: "AI Engineer",
+    company: "Deskree",
+    location: "Toronto, Canada",
+    period: "Nov 2025 – Present",
+    companyLink: "https://deskree.com/",
+    highlights: [
+      "Working on Tetrix and building AI agents for your infrastructure including cloud services like AWS.",
+      "Developed Tetrix CLI- a tool to review architecture, and security issues and enforce code quality for your project.",
+    ],
+  },
+  {
+    title: "ML Engineering Intern",
+    company: "Nannie.ai",
+    location: "London, UK",
+    period: "Sep 2025 – Nov 2025",
+    companyLink: "https://nannie.ai/",
+    highlights: [
+      "Worked on testing and deploying SOTA Vision algorithms for classification, segmentation and pose detection",
+      "Deployed OSS text to video generation models for in-house testing and benchmarking against Veo3",
+    ],
+  },
+  {
     title: "OSS contributor",
     company: "Google Summer of Code - Mifos Initiative",
     location: "Seattle, WA",

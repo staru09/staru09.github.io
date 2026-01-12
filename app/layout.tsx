@@ -11,7 +11,6 @@ export const metadata: Metadata = {
   title: "Aru Sharma | AI/ML Engineer",
   description:
     "AI/ML Engineer and Open Source Contributor. Building intelligent systems that bridge human communication and machine understanding.",
-  generator: "v0.app",
   icons: {
     icon: [
       {
