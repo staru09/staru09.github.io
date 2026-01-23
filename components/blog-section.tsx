@@ -13,6 +13,12 @@ const blogPosts = [
     category: "Memory Systems",
     link: "https://medium.com/@arusharmazxx000/towards-personalized-reasoning-building-agents-that-remember-fa02edbeeadb",
 
+  },
+  {
+    date: "Jan 23",
+    title: "How to make your First Pull Request to Open Source Codebase",
+    category: "Open Source",
+    link: "https://medium.com/@arusharmazxx000/how-to-make-your-first-pull-request-to-open-source-codebase-23d597205d06"
   }
 ]
 
