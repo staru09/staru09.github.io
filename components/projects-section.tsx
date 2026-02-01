@@ -34,19 +34,19 @@ const projects = [
       "GPU acceleration for efficient processing",
       "Chunked processing for long audio files",
     ],
-    technologies: ["Huggingface", "Nvidia-Nemo", "CUDA", "FFmpeg"],
+    technologies: ["Huggingface", "Nvidia-Nemo", "FFmpeg"],
     github: "https://github.com/staru09/Bitcoin-Asr-Bench",
   },
   {
-    title: "Medium-Article-Reader",
-    description: "I am very lazy and find it's difficult to read Medium articles so I build a chrome extension that reads these articles aloud.",
+    title: "LLM-Perf-Bench",
+    description: "This is the project from the sprint that I did over the weekend and benchmarked performance of LLM inference providers.",
     features: [
-      "Uses user's Deepgram API for transcription",
-      "User-friendly Chrome extension interface",
-      "to-do: Self hosted TTS model support",
+      "Uses snippet from sharegpt dataset for benchmarking",
+      "Compares latency and throughput across providers",
+      "Tried simulating real-world usage patterns using different concurrency levels",
     ],
-    technologies: ["Chrome Extension", "Deepgram API", "TTS"],
-    github: "https://github.com/staru09/text2speech_extension",
+    technologies: ["Vllms", "SG-lang", "ML-Infrastructure"],
+    github: "https://github.com/staru09/llm_infra_bench",
   }
 ]
 
