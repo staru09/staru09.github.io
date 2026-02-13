@@ -47,6 +47,17 @@ const projects = [
     ],
     technologies: ["vLLM", "SGLang", "ML-Infrastructure"],
     github: "https://github.com/staru09/llm_infra_bench",
+  },
+  {
+    title: "vLLM hidden state extractor",
+    description: "Created a custom extractor for vLLM to extract hidden states from LLMs for downstream tasks.",
+    features: [
+      "It uses Pytorch Forward Hooks to extract hidden states from a specific layer.",
+      "It saves tensors on a GPU buffer which gets released via TTL logic.",
+      "These tensors can be consumed by a consumer process or thread in a near real-time.",
+    ],
+    technologies: ["vLLM", "PyTorch", "GPU Programming"],
+    github: "https://github.com/staru09/vllm-hidden-states-extractor-dev",
   }
 ]
 

@@ -21,9 +21,7 @@ export function AboutSection() {
                   <span className="flex items-center gap-1">📍 Chandigarh, India</span>
                   <span className="flex items-center gap-1">📅 2022-pursuing</span>
                 </div>
-                <span className="mt-2 inline-block rounded-md border border-border bg-muted px-2 py-1 text-xs font-medium text-muted-foreground">
-                  CGPA: 7.70
-                </span>
+
               </div>
               <div className="h-px bg-border" />
               <div>
@@ -53,7 +51,7 @@ export function AboutSection() {
               intersection of AI with current software landscapes.
             </p>
             <div className="flex flex-wrap gap-2">
-              {["AI Security", "NLP", "Computer Vision", "Mechanistic Interpretability", "LLMs"].map((tag) => (
+              {["Mechanistic Interpretability", "Voice Agents", "Kernel Programming"].map((tag) => (
                 <span
                   key={tag}
                   className="rounded-full border border-border bg-muted px-3 py-1 text-sm font-medium text-muted-foreground"
