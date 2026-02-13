@@ -51,7 +51,7 @@ export function AboutSection() {
               intersection of AI with current software landscapes.
             </p>
             <div className="flex flex-wrap gap-2">
-              {["Mechanistic Interpretability", "Voice Agents", "Kernel Programming"].map((tag) => (
+              {["Mechanistic Interpretability", "Voice Agents", "Kernel Programming", "Inference Optimisations"].map((tag) => (
                 <span
                   key={tag}
                   className="rounded-full border border-border bg-muted px-3 py-1 text-sm font-medium text-muted-foreground"
