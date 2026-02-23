@@ -6,7 +6,7 @@ const experiences = [
     title: "AI Engineer",
     company: "Deskree",
     location: "Toronto, Canada",
-    period: "Nov 2025 – Present",
+    period: "Nov 2025 – Jan 2026",
     companyLink: "https://deskree.com/",
     highlights: [
       "Working on Tetrix and building AI agents for your infrastructure including cloud services like AWS.",
