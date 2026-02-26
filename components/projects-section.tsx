@@ -3,6 +3,17 @@ import Link from "next/link"
 
 const projects = [
   {
+    title: "Memory Augmented Agents",
+    description:
+      "Building a memory layer for agents to store information from interactions using file systems as data storage",
+    features: [
+      "Multiple agents to classify information and store in files",
+      "RLM based retrieval system for retrieving relevant information.",
+    ],
+    technologies: ["Memory Agents", "RLMs"],
+    github: "https://github.com/staru09/mem_agents",
+  },
+  {
     title: "Multimodal Emotion Recognition",
     description:
       "Implemented a multimodal emotion recognition system using late and gated fusion techniques on audio and video embeddings to classify emotional states.",
@@ -11,7 +22,7 @@ const projects = [
       "V-JEPA for video visual embedding extraction",
       "Gated Fusion Network for combining modalities",
     ],
-    technologies: ["multimodal fusion", "world models", "ffmpeg"],
+    technologies: ["multimodal fusion", "ffmpeg"],
     github: "https://github.com/staru09/Multimodal_emotion_",
   },
   {
