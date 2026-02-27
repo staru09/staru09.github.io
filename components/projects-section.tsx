@@ -68,7 +68,7 @@ const projects = [
       "These tensors can be consumed by a consumer process or thread in a near real-time.",
     ],
     technologies: ["vLLM", "PyTorch", "GPU Programming"],
-    github: "https://github.com/staru09/vllm-hidden-states-extractor-dev",
+    github: "https://github.com/staru09/vllm-hidden-states-extractor-dev/tree/test_feats",
   }
 ]
 
