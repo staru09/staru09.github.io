@@ -3,15 +3,15 @@ import Link from "next/link"
 
 const projects = [
   {
-    title: "Memory Augmented Agents",
+    title: "Long Horizon Reasoning Agents",
     description:
-      "Building a memory layer for agents to store information from interactions using file systems as data storage",
+      "Building a personalised agent that can reason over long term to remember and recall information from past interactions",
     features: [
-      "Multiple agents to classify information and store in files",
-      "RLM based retrieval system for retrieving relevant information.",
+      "Implementation of the EverMemOS paper from first principles",
+      "Keyword as well as semantic based retrieval system combined with reranking mechanism",
     ],
-    technologies: ["Memory Agents", "RLMs"],
-    github: "https://github.com/staru09/mem_agents",
+    technologies: ["Long Horizon Reasoning", "Memory Systems"],
+    github: "https://github.com/staru09/engram_memory_system",
   },
   {
     title: "Multimodal Emotion Recognition",

@@ -3,7 +3,19 @@ import Link from "next/link"
 
 const experiences = [
   {
-    title: "AI Engineer",
+    title: "ML Engineering Intern",
+    company: "Nannie.ai",
+    location: "London, UK",
+    period: "Sep 2025 – Present",
+    companyLink: "https://nannie.ai/",
+    highlights: [
+      "Worked on testing and deploying SOTA Vision algorithms for classification, segmentation and pose detection",
+      "Deployed OSS text to video generation models for in-house testing and benchmarking against Veo3",
+    ],
+  },
+  
+  {
+    title: "Contract AI Engineer",
     company: "Deskree",
     location: "Toronto, Canada",
     period: "Nov 2025 – Jan 2026",
@@ -13,17 +25,7 @@ const experiences = [
       "Developed Tetrix CLI- a tool to review architecture, and security issues and enforce code quality for your project.",
     ],
   },
-  {
-    title: "ML Engineering Intern",
-    company: "Nannie.ai",
-    location: "London, UK",
-    period: "Sep 2025 – Nov 2025",
-    companyLink: "https://nannie.ai/",
-    highlights: [
-      "Worked on testing and deploying SOTA Vision algorithms for classification, segmentation and pose detection",
-      "Deployed OSS text to video generation models for in-house testing and benchmarking against Veo3",
-    ],
-  },
+
   {
     title: "OSS contributor",
     company: "Google Summer of Code - Mifos Initiative",
