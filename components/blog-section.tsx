@@ -19,6 +19,18 @@ const blogPosts = [
     title: "How to make your First Pull Request to Open Source Codebase",
     category: "Open Source",
     link: "https://medium.com/@arusharmazxx000/how-to-make-your-first-pull-request-to-open-source-codebase-23d597205d06"
+  },
+  {
+    date: "Mar 15",
+    title: "How to Write a GSoC Proposal That Almost Gets Accepted",
+    category: "Open Source",
+    link: "https://medium.com/@arusharmazxx000/how-to-write-a-gsoc-proposal-that-almost-gets-accepted-5f62bd08f756"
+  },
+  {
+    date: "Apr 26",
+    title: "You Don't Need a Fancy Memory Layer",
+    category: "Memory Systems",
+    link: "https://medium.com/@arusharmazxx000/you-dont-need-a-fancy-memory-layer-db59defc646c"
   }
 ]
 

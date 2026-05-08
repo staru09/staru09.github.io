@@ -39,6 +39,13 @@ export function Header() {
           >
             Blog
           </button>
+          <Link
+            href="/cv.pdf"
+            target="_blank"
+            className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors outline-none focus:outline-none focus-visible:outline-none"
+          >
+            Resume
+          </Link>
         </nav>
         <div className="flex items-center gap-4">
           <Link

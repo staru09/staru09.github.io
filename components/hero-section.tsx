@@ -5,15 +5,6 @@ import Link from "next/link"
 export function HeroSection() {
   return (
     <section className="container mx-auto max-w-5xl px-6 py-16 md:py-24">
-      {/* Announcement Banner */}
-      <div className="mb-12 rounded-lg bg-amber-50 border border-amber-200 p-4 text-sm text-foreground">
-        <span className="font-medium">Open to opportunities!</span> I am actively looking for full-time positions, and collaborations in AI/ML. Here is my{" "}
-        <Link href="/cv.pdf" target="_blank" className="text-amber-700 hover:underline">
-          Resume
-        </Link>
-        .
-      </div>
-
       <div className="grid gap-12 md:grid-cols-[300px_1fr] lg:gap-16">
         {/* Left Column - Photo and Info */}
         <div className="space-y-6">
@@ -55,7 +46,7 @@ export function HeroSection() {
           <div>
             <p className="text-foreground leading-relaxed">
               <span className="font-semibold">Experience:</span> My journey involves significant contributions to open-source ecosystems.
-              I worked as OSS contributor at{" "}
+              I worked as a summer intern at{" "}
               <Link href="https://summerofcode.withgoogle.com/archive/2025/projects/ffITbKjg" target="_blank" className="text-amber-700 hover:underline">
                 Google Summer of Code
               </Link>{" "}
@@ -67,11 +58,11 @@ export function HeroSection() {
               <Link href="https://www.summerofbitcoin.org/orgs-details/chatbtc/r/recpQ9M1ICA0vRqu9" target="_blank" className="text-amber-700 hover:underline">
                 Summer of Bitcoin
               </Link>{" "}
-              to contribute to {" "}
+              and contributed to{" "}
               <Link href="https://github.com/bitcointranscripts/tstbtc" target="_blank" className="text-amber-700 hover:underline">
                 Bitcoin Transcripts
               </Link>
-              . I was also an{" "}
+              , and was an{" "}
               <Link href="https://mentorship.lfx.linuxfoundation.org/mentee/33a5d49f-f505-45f1-8a8f-c3ba7edbcda3" target="_blank" className="text-amber-700 hover:underline">
                 LFX Mentee
               </Link>{" "}
@@ -79,7 +70,7 @@ export function HeroSection() {
               <Link href="https://wasmedge.org/" target="_blank" className="text-amber-700 hover:underline">
                 CNCF WasmEdge
               </Link>
-              , and contributed to{" "}
+              . I contributed to{" "}
               <Link href="https://github.com/ucbepic/docetl" target="_blank" className="text-amber-700 hover:underline">
                 DocETL
               </Link>{" "}
@@ -109,7 +100,15 @@ export function HeroSection() {
               <Link href="https://fossunited.org/fosshack/2025" target="_blank" className="text-amber-700 hover:underline">
                 FOSSHACK
               </Link>{" "}
-              and started AISOC so that students can get familiar with how to start contributing to OSS.
+              and started AISOC so that students can get familiar with how to start contributing to OSS. I am also returning as a{" "}
+              <Link href="https://summerofcode.withgoogle.com/programs/2026/projects/hpIVWw7v" target="_blank" className="text-amber-700 hover:underline">
+                GSoC mentor for Mifos
+              </Link>
+              , and am mentoring{" "}
+              <Link href="https://www.summerofbitcoin.org/2026-org-details/briadpool/r/rec7nnl5CsMXRfEx6" target="_blank" className="text-amber-700 hover:underline">
+                Genesis-KB at Summer of Bitcoin
+              </Link>
+              .
             </p>
           </div>
 
