@@ -3,7 +3,7 @@ import Link from "next/link"
 
 const experiences = [
   {
-    title: "ML Engineering Intern",
+    title: "ML Engineer",
     company: "Nannie.ai",
     location: "London, UK",
     period: "Sep 2025 – Present",

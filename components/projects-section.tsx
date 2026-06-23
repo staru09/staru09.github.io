@@ -3,6 +3,29 @@ import Link from "next/link"
 
 const projects = [
   {
+    title: "Open-Paxel",
+    description:
+      "AI-native open-source analyser for your coding patterns.",
+    features: [
+      "Built a lightweight toolkit to analyse coding sessions from Claude Code using LLMs and SQLite",
+      "Keeps private data on the local machine and creates a profile suggesting strengths, areas of growth, and overall narrative",
+    ],
+    technologies: ["Code Analysis", "SQLite", "LLMs"],
+    github: "https://github.com/staru09/open-paxel",
+  },
+  {
+    title: "genesis-kb",
+    description:
+      "Knowledge base and Bitcoin education platform for Bitcoin development.",
+    features: [
+      "Transcription engine for processing Bitcoin-related audio and video content",
+      "Web frontend for browsing and searching Bitcoin transcripts",
+      "LLM-based explainer for BIPs and BOLTs",
+    ],
+    technologies: ["Bitcoin", "Python", "TypeScript", "LLMs"],
+    github: "https://github.com/orgs/genesis-kb/repositories",
+  },
+  {
     title: "Long Horizon Reasoning Agents",
     description:
       "Building a personalised agent that can reason over long term to remember and recall information from past interactions",
@@ -25,51 +48,6 @@ const projects = [
     technologies: ["multimodal fusion", "ffmpeg"],
     github: "https://github.com/staru09/Multimodal_emotion_",
   },
-  {
-    title: "Multi-Agent Research Tool",
-    description:
-      "Developed an autonomous multi-agent system that facilitates interaction and collaboration of specialized agents to perform comprehensive research tasks.",
-    features: [
-      "DuckDuckGo Search Agent for web articles",
-      "ArXiv Agent for academic papers",
-      "Supervisor Agent for task coordination",
-    ],
-    technologies: ["LangGraph", "OpenAI"],
-    github: "https://github.com/staru09/multi_agent_research_tool",
-  },
-  {
-    title: "Bitcoin-ASR-Bench",
-    description: "Benchmarked models from Open-ASR leaderboard for transcribing talks from bitcoin conferences with GPU acceleration support.",
-    features: [
-      "Multi-model support and evaluation",
-      "GPU acceleration for efficient processing",
-      "Chunked processing for long audio files",
-    ],
-    technologies: ["Huggingface", "Nvidia-Nemo", "FFmpeg"],
-    github: "https://github.com/staru09/Bitcoin-Asr-Bench",
-  },
-  {
-    title: "LLM-Perf-Bench",
-    description: "This is the project from the sprint that I did over the weekend and benchmarked performance of LLM inference providers.",
-    features: [
-      "Uses snippet from sharegpt dataset for benchmarking",
-      "Compares latency and throughput across providers",
-      "Tried simulating real-world usage patterns using different concurrency levels",
-    ],
-    technologies: ["vLLM", "SGLang", "ML-Infrastructure"],
-    github: "https://github.com/staru09/llm_infra_bench",
-  },
-  {
-    title: "vLLM hidden state extractor",
-    description: "Created a custom extractor for vLLM to extract hidden states from LLMs for downstream tasks.",
-    features: [
-      "It uses Pytorch Forward Hooks to extract hidden states from a specific layer.",
-      "It saves tensors on a GPU buffer which gets released via TTL logic.",
-      "These tensors can be consumed by a consumer process or thread in a near real-time.",
-    ],
-    technologies: ["vLLM", "PyTorch", "GPU Programming"],
-    github: "https://github.com/staru09/vllm-hidden-states-extractor-dev",
-  }
 ]
 
 export function ProjectsSection() {

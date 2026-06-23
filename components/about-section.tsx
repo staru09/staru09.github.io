@@ -19,7 +19,7 @@ export function AboutSection() {
                 <p className="text-sm text-muted-foreground">University Institute of Engineering and Technology, PU</p>
                 <div className="mt-2 flex flex-wrap items-center gap-3 text-sm text-muted-foreground">
                   <span className="flex items-center gap-1">📍 Chandigarh, India</span>
-                  <span className="flex items-center gap-1">📅 2022-pursuing</span>
+                  <span className="flex items-center gap-1">📅 2022-2026</span>
                 </div>
 
               </div>
@@ -44,14 +44,14 @@ export function AboutSection() {
               <h3 className="text-lg font-semibold text-foreground">Current Focus</h3>
             </div>
             <p className="mb-4 text-muted-foreground leading-relaxed">
-              Interested in memory augmented AI systems that can learn and evolve with time just like humans do.
+              Interested in long horizon reasoning and self-evolving agents that learn and adapt over time.
             </p>
             <p className="mb-6 text-muted-foreground leading-relaxed">
-              Currently building multimodal AI systems and exploring the
-              intersection of AI with current software landscapes.
+              Exploring mechanistic interpretability and AI for science to understand how intelligent systems work
+              and apply them to real-world research problems.
             </p>
             <div className="flex flex-wrap gap-2">
-              {["Mechanistic Interpretability", "Voice Agents", "Kernel Programming", "Inference Optimisations"].map((tag) => (
+              {["Long Horizon Reasoning", "Self Evolving Agents", "Mechanistic Interpretability", "AI for Science"].map((tag) => (
                 <span
                   key={tag}
                   className="rounded-full border border-border bg-muted px-3 py-1 text-sm font-medium text-muted-foreground"

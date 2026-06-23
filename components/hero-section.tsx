@@ -100,7 +100,11 @@ export function HeroSection() {
               <Link href="https://fossunited.org/fosshack/2025" target="_blank" className="text-amber-700 hover:underline">
                 FOSSHACK
               </Link>{" "}
-              and started AISOC so that students can get familiar with how to start contributing to OSS. I am also returning as a{" "}
+              and{" "}
+              <Link href="https://www.linkedin.com/posts/pclubuiet_mosshack2026-hackathon-yc-activity-7469047281380524032-J5uK?utm_source=share&utm_medium=member_desktop&rcm=ACoAADG2mbIBXCugjaagOc3CHdUiO9nsh1eDcro" target="_blank" className="text-amber-700 hover:underline">
+                MOSS HACK
+              </Link>{" "}
+              in collaboration with Moss (YC F25), and started AISOC so that students can get familiar with how to start contributing to OSS. I am also returning as a{" "}
               <Link href="https://summerofcode.withgoogle.com/programs/2026/projects/hpIVWw7v" target="_blank" className="text-amber-700 hover:underline">
                 GSoC mentor for Mifos
               </Link>
@@ -124,7 +128,11 @@ export function HeroSection() {
                 NTIRE Image Dehazing and Denoising challenge
               </Link>{" "}
               at CVPR 2024.
-              Published research on Speech Emotion Recognition accepted at the 16th ICCCNT 2025.
+              Published research on Speech Emotion Recognition accepted at the{" "}
+              <Link href="https://16icccnt.com/" target="_blank" className="text-amber-700 hover:underline">
+                16th ICCCNT 2025
+              </Link>
+              . Published a patent on healthcare and AI using computer vision models.
             </p>
           </div>
         </div>

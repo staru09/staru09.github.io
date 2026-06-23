@@ -31,6 +31,18 @@ const blogPosts = [
     title: "You Don't Need a Fancy Memory Layer",
     category: "Memory Systems",
     link: "https://medium.com/@arusharmazxx000/you-dont-need-a-fancy-memory-layer-db59defc646c"
+  },
+  {
+    date: "May 19",
+    title: "A Deep Dive into EBM, JEPA, and World Models",
+    category: "World Models",
+    link: "https://medium.com/@arusharmazxx000/a-deep-dive-into-ebm-jepa-and-world-models-c5b48a69b279",
+  },
+  {
+    date: "Jun 10",
+    title: "From Threads to Tensor Cores: Understanding How GPUs Really Work",
+    category: "Systems",
+    link: "https://medium.com/@arusharmazxx000/gpus-explained-simply-the-hidden-architecture-powering-ai-and-games-c22c8b0059c9",
   }
 ]
 
